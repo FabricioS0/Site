@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+html{
+    font-size: 10px;
+    font-family: 'Poppins', 'Times New Roman', Times, serif ;
+    scroll-behavior: smooth;
+}
+
+/* Botões */
+.principal .botao{
+    display: inline-block;
+    padding: 10px 30px;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 10px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+    text-align: center; 
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ .botao:hover{
+    color: white;
+    font-weight: 500;
+    background-color: red;
+}
+
+.principal .botao2{
+    display: inline-block;
+    padding: 10px 30px;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 10px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+    text-align: center; 
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ .botao2:hover{
+    color: white;
+    font-weight: 500;
+    background-color: red;
+}
+.principal .botao3{
+    display: inline-block;
+    padding: 10px 30px;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 10px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+    text-align: center; 
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ .botao3:hover{
+    color: white;
+    font-weight: 500;
+    background-color: red;
+}
+/* Inicio */
+
+.Logotipo{
+    max-width: 200px; 
+}
+#Tudo{
+    background-image: url(./background.jpeg);
+    margin:0;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1
+}
+
+#Inicio{
+background-color: #50595c;
+}
+
+/* Meio/Textos */
+.Titulo{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid black;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Texto{
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* Pagina Secundaria */
+.Tudo2{
+    background-color: #50595c ;
+    margin: 0px;   
+}
+
+#Inicio2{
+    background-color: #f8f8d6;
+    padding: 10px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;   
+}
+
+/* Seção de Serviços */
+#Servicos{
+    margin-top: 50px;
+}
+
+#Servicos .Titulo-secondary{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+}
