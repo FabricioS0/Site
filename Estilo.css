@@ -79,20 +79,23 @@ html{
 .Logotipo{
     max-width: 200px; 
 }
+
+#Inicio{
+    background-color: #cccccc;
+    }
+
+
+
+
+/* Meio/Textos */
 #Tudo{
-    background-image: url(./background.jpeg);
+    background-color: #292c37;
     margin:0;
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1
 }
-
-#Inicio{
-background-color: #50595c;
-}
-
-/* Meio/Textos */
 .Titulo{
     display: inline-block;
     padding: 10px 30px;
@@ -154,4 +157,10 @@ background-color: #50595c;
     font-size: 30px;
     margin-top: 25px;
     color: white;
+}
+
+/* Sobre/Final da pagina */
+
+#Sobre{ 
+    text-align: center 
 }
