@@ -81,7 +81,7 @@ html{
 }
 
 #Inicio{
-    background-color: #cccccc;
+    background-color: #afcca8;
     }
 
 
@@ -89,7 +89,7 @@ html{
 
 /* Meio/Textos */
 #Tudo{
-    background-color: #292c37;
+    background-color: #f5eec3;
     margin:0;
     background-size: cover;
     background-position: top center;
@@ -99,7 +99,7 @@ html{
 .Titulo{
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: #33211c;
     background-color: transparent;
     border: 3px solid black;
     font-size: 50px;
@@ -156,11 +156,15 @@ html{
     text-align: center;
     font-size: 30px;
     margin-top: 25px;
-    color: white;
+    color: #33211c;
 }
 
 /* Sobre/Final da pagina */
 
 #Sobre{ 
     text-align: center 
+}
+
+.Insta, .whats{
+    width: 20px;
 }
